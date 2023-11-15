@@ -1,0 +1,96 @@
+body {
+    background-color: darkred;
+}
+
+nav {
+    background-color: darkblue;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    margin: 10px;
+    color: white;
+}
+
+a:hover {
+    background-color: brown;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#join {
+    background-color: darkred;
+    margin: 20px;
+}
+
+main {
+    border: 2px soild darkblue 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    display:flex;
+}
+#description{
+    background-color: darkblue;
+}
+#title {
+    background-color: black;
+    color: white;
+    display: inline;
+    text-align: center;
+}
+.spidy{
+    width: 50%;
+    background-image: url(https://graphicriver.img.customer.envatousercontent.com/files/384124058/double%20thumbs%20up%20emoticon%20preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=9e21322adb8587eb8bb885b9069aa32ahttps://static.wikia.nocookie.net/f6e435fe-e493-4851-8c16-80d145868a78/scale-to-width/755);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spidy_text2{
+    background-color: darkblue;
+    width: 75%;
+    height: 160%;
+    align-items: center;
+    color: white;
+    }
+.spidy_text{
+        background-color: darkblue;
+        width: 75%;
+        align-items: center;
+        color: white;
+}
+p{
+    color: white;
+}
+.spidy_3{
+    width: 50%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--cjEN1sUl8Tp7Z9TKIzlhbniIu5EzVxQHLWx0StLwTY8DZGqdmhOaQIH_CFdMoaEAgc:https://external-preview.redd.it/7sKyJSAk5xt9U5_c7KzaB9B-fJPP5CtR-1kv8FGSArs.png%3Fformat%3Dpjpg%26auto%3Dwebp%26s%3D0efb29ba8682e090f9dd74c9cc74f29b5d1df6f1&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image_gallery{
+    width: 550px;
+    height: 600px;
+    background-color:darkblue;
+    background-image: url(code.png);
+    background-size: cover;
+    position: absolute;
+    display: inline;
+    right: 170px;
+    top: 300px;
+}
