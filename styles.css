@@ -1,0 +1,10 @@
+th,tr{
+    border: black 3px solid;
+}
+body{
+    color: darkred;
+    background-color: darkblue;
+}
+#input1{
+    background-color: darkred;
+}
