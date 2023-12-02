@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img id="pics" src="hang.png" alt="stickman pic" height="500px" width="700px">
+    <div class="reveal">
+        <p class="letter_reveal" id="letter1">?</p>
+        <p class="letter_reveal" id="letter2">?</p>
+        <p class="letter_reveal" id="letter3">?</p>
+        <p class="letter_reveal" id="letter4">?</p>
+        <p class="letter_reveal" id="letter5">?</p>
+        <p class="letter_reveal" id="letter6">?</p>
+        <p class="letter_reveal" id="letter7">?</p>
+        <p class="letter_reveal" id="letter8">?</p>
+    </div>
+    <input type="text" id="input1" minlength="1" maxlength="1">
+    <p id="picked"></p>
+    <div id="buttons">
+        <button id="btn">Enter</button>
+
+        <button id="btn2">New game</button>
+    </div>
+</body>
+<script src="hangman.js"></script>
+
+</html>
